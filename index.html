@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .nav1{
+            display: flex;
+            background-color: aqua;
+            justify-content: space-between;
+            padding-left: 50px;
+            padding-top: 20px;
+            height: 60px;
+            width:auto;
+        }
+        .nav2{
+            margin-top: 8px;
+        }
+        .nav2 a{
+            /* padding: left 10px; */
+            color: rgb(26, 24, 24);
+            text-decoration: none;
+            text-align: center;
+            justify-content: space-between;
+            margin-right: 100px;
+
+        }
+        .image{
+            background-image: url(./banner-02.jpg);
+            background-repeat: no-repeat;
+            width: auto;
+            height: 700px;
+            padding:20px;
+            opacity: 1;
+            /* margin-top: -20.2px; */
+        }
+        .style{
+         color: aliceblue;
+         text-align: center;
+         padding-top: 150px;   
+        }
+        button{
+            border-radius: 30px;
+            background-color: transparent;
+            color: aqua;
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-color: aqua;
+        }
+        .icon{
+            background-color: white;
+            padding:20px;
+            margin-top: 120px;
+            border-radius: 100px;
+            display: flex;
+             justify-content:space-between;
+            align-items: center;
+
+        }
+        .i{
+            border-radius: 20px;
+            border-color: aqua;
+            background-color: rgb(44, 226, 226);
+            color: rgb(247, 248, 248);
+            margin-right: 10px;
+        }
+       
+        .b{
+            font-size: 60px;
+            color: rgb(17, 212, 212);
+        }
+        .icon2{
+            display: flex;
+        }
+        .p{
+            color: rgb(73, 70, 65);
+            padding-right: 200px;
+    
+        }
+        h3{
+            color: rgb(20, 203, 203);
+        }
+      .c{
+        font-size: 50px;
+        color: aqua;
+      }
+      .d{
+        font-size: 50px;
+        color: aqua;
+      }
+      .line{
+        background-color: aliceblue;
+        height: 2px;
+        width: 300px;
+        margin-top: 50px;
+        color: aliceblue;
+       
+      }
+      .line1{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        
+      }
+      .num{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        color: rgb(248, 249, 249);
+      }
+      .visit{
+        padding-top: 80px;
+        margin-left: 50px;
+      }
+      .sw{
+        display:flex;
+         /* grid-template-columns: auto auto auto; 
+         grid-gap: 2px; */
+         padding-top: 50px;
+         margin-left: 50px;
+
+      }
+      .img{
+        height: 280px;
+        border-radius: 20px;
+      }
+      .txt{
+        padding-left: 50px;
+        margin-bottom:50px;
+      }
+      .txtv{
+        padding-left: 90px;
+        margin-bottom:50px;
+
+      }
+     .button2{
+      display: flex;
+      margin-left:700px;
+      
+     }
+     .pa{
+      text-align: justify;
+      color: rgb(83, 84, 85);
+     }
+     .btn{
+      margin-left: 150px;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #52cde3;
+      color: white;
+     }
+     .icons3{
+      display:flex;
+      justify-content: space-between;
+     }
+     .hr1{
+      width: 900px;
+      margin-left: 50px;
+      
+     }
+     .container{
+      display: flex;
+     }
+     .ifram{
+      margin-left: 90px;
+      padding-top: 100px;
+      border-radius:90px;
+      border: 2px;
+     }
+     footer {
+  background-color: #52cde3;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.bt{
+      margin-left: 190px;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #52cde3;
+      color: white;
+}
+ .bts{
+  margin-left: 250px;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #52cde3;
+      color: white;
+ }
+ .shr{
+  background-image:url(./cta-bg.jpg);
+  height: 200px;
+  color: white;
+  padding-right: 200;
+  display: flex;
+  /* justify-content: center; */
+ }
+ .order{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-left: 350px;
+  padding-right: 650px;
+  margin-bottom: 100px;
+  /* margin-top: 100px; */
+  /* color: #52cde3;
+  border-radius: 50%;
+  border: #52cde3; */
+
+ }
+ .o{
+  border-radius: 70px;
+  border: 2px solid rgb(27, 160, 178);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding: 15px;
+  color: #52cde3;
+ }
+ .r{
+  border-radius: 70px;
+  /* border: 2px solid rgb(27, 160, 178); */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding: 15px;
+  background-color: #52cde3;
+  color: white;
+ }
+ .di{
+  border-radius: 70px;
+  border: 2px solid rgb(27, 160, 178);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding: 15px;
+  color: #52cde3;
+ }
+ .e{
+  /* border-radius: 70px;
+  border: 2px solid rgb(27, 160, 178); */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding: 15px;
+  color: #52cde3;
+ }
+ .ri{
+  /* border-radius: 70px;
+  border: 2px solid rgb(27, 160, 178); */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding: 15px;
+  color: #52cde3;
+ }
+ .zi{
+  color: white;
+  justify-content: center;
+  padding-left: 150px;
+  /* margin-top: 50px; */
+  margin-top: 80px;
+
+ }
+ .bin{
+  border-radius: 50px;
+  color: white;
+  border-color: white;
+  margin-left: 450px;
+  margin-top: 80px;
+ }
+ .zii{
+  margin-left: 150px;
+  color: white;
+ }
+    </style>
+</head>
+<body>
+
+    <div class="nav1">
+
+        <div ><img src="./logo.png" alt=""></div>
+        <div class="nav2">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Deals</a>
+            <a href="">Reservation</a>
+            <a href="">Book Yours</a>
+        </div>
+    </div>
+  
+    <div class="image">
+        <div class="style">  
+        <h4>Take a Glimpse into The Beautiful Country Of:</h4>
+        <h1>Switzerland</h1>
+        <button>Go There</button></div>
+      
+
+
+        <div class="icon">
+<div class="icon2" ><i class="fa-solid fa-circle-user b"></i></div>
+<div class="p" ><p>Population</p>
+<h3>8.66M</h3>
+</div>
+
+<div class="icon3"><i class="fa-solid fa-globe c"></i></div>
+<div class="p"> <p>Territory</p>
+<h3>41.290km2</h3></div>
+
+<div class="icon4"><i class="fa-solid fa-house d"></i></div>
+<div class="p"><p>AVG Price</p>
+<h3>$1.100.200</h3></div>
+
+<div><button class="i">Explore More</button></div>
+</div>
+<div class="line1">
+    <div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+</div>
+<div class="num">
+ <div style="margin-top: 10px; padding-left: 170px;">1</div>
+ <div style="margin-top: 10px; padding-right: 80px;">2</div>
+ <div style="margin-top: 10px; padding-right: 100px;">3</div>
+ <div style="margin-top: 10px; padding-right: 160px;">4</div>
+</div> </div>
+<div class="visit"><h1> Visit one of our countries Now</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, <br> sed do elusmod tempor incididunt at labore</p>
+</div>
+<div class="container">
+ <div class="main">
+<div class="sw">
+   <div><img class="img" src="./country-01.jpg" alt=""></div>
+
+   <div class="txtv">
+     <h1>SWITZERLAND <button class="btn">Explore</button></h1>
+     <p>Europe</p>
+     <p class="pa">wook travels is a professional Bootstrap 5 Theme html css layout for your website . <br> you can use this layout for your commercial work.</p> <hr> <br>
+     <div class="icons3">
+     <div><i class="fa-solid fa-user"></i>&nbsp;&nbsp;8.66Mil People </div>
+     <div><i class="fa-solid fa-globe"></i>&nbsp;&nbsp;41.290km2</div>
+     <div><i class="fa-solid fa-house"></i>&nbsp;&nbsp;$1.100.200</div></div><br><hr>
+     <div><h5 style="color: rgb(56, 200, 225);">Need Directions?&nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></h5></div>
+   </div>
+</div>
+<hr class="hr1">
+<div class="sw">
+  <div><img class="img" src="./country-02.jpg" alt=""></div>
+
+  <div class="txt">
+    <h1>CARIBBEAN <button class="bt">Explore</button></h1>
+    <p>North America</p>
+    <p class="pa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi porro suscipit iusto tempora esse tempore architecto similique, ab voluptatem, eos molestiae repudiandae incidunt consectetur repellat doloribus consequatur, impedit omnis maxime.</p> <hr> <br>
+    <div class="icons3">
+    <div><i class="fa-solid fa-user"></i>&nbsp;&nbsp;8.66Mil People </div>
+    <div><i class="fa-solid fa-globe"></i>&nbsp;&nbsp;41.290km2</div>
+    <div><i class="fa-solid fa-house"></i>&nbsp;&nbsp;$1.100.200</div></div><br><hr>
+    <div><h5 style="color: rgb(55, 170, 232);">Need Directions?&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></h5></div>
+  </div>
+</div>
+  
+     <hr class="hr1">
+ <div class="sw">
+  <div><img class="img" src="./country-03.jpg" alt=""></div>
+
+  <div class="txt">
+    <h1>FRANCE <button class="bts">Explore</button></h1>
+    <p>Europe</p>
+    <p class="pa">we hope this woox template is useful for you,please support us a small amount of paypal to into templatemo.com for our suriival. we really apreciate your contribution.</p> <hr> <br>
+    <div class="icons3">
+    <div><i class="fa-solid fa-user"></i>&nbsp;&nbsp;8.66Mil People </div>
+    <div><i class="fa-solid fa-globe"></i>&nbsp;&nbsp;41.290km2</div>
+    <div><i class="fa-solid fa-house"></i>&nbsp;&nbsp;$1.100.200</div></div><br><hr>
+    <div><h5 style="color: rgb(39, 169, 209);">Need Directions?&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></h5></div>
+  </div>
+</div></div>
+ <div class="ifram">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28703.05388861555!2d-80.14561679017032!3d25.93910769338087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9acfee073549d%3A0xf4e74db7a5da487a!2sSunny%20Isles%20Beach%2C%20FL%2033160%2C%20USA!5e0!3m2!1sen!2sin!4v1714980777813!5m2!1sen!2sin" width="400" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  style="border-radius: 50px;"></iframe>
+ </div> 
+
+</div>
+
+<div class="order">
+  <div class="ri"><i class="fa-solid fa-arrow-left"></i></div>
+  <div class="o">1</div>
+  <div class="r">2</div>
+  <div class="di">3</div>
+  <div class="e"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+
+
+
+<div class="shr">
+  <div>
+  <h1 class="zi">ARE YOU LOOKING TO TRAVEL?</H1>
+  <h3 class="zii">Make A Reservation By Clicking The Button</h3></div>
+
+  <div><button class="bin">Book Yours You</button></div>
+</div>
+<!-- <img src="./cta-bg.jpg" width="100%"> -->
+<footer>
+  <p>Copyright 2036 WoOx Travel Company. All rights reserved.</p>
+  <p>Design: TemplateMo</p>
+</footer>
+
+      
+ 
+
+
+
+
+</body>  
+</html>
